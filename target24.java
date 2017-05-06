@@ -12,9 +12,9 @@ class target24
       {
         if(i!=j)
         {
-          if(args[i]+args[j]==no)
+          if(Integer.valueOf(args[i])+Integer.valueOf(args[j])==no)
           {
-            System.out.println(+args[i]+"and"+args[j]);
+            System.out.println(args[i]+" and "+args[j]);
           }
         }
       }
